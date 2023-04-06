@@ -4,7 +4,7 @@ import "./styles/menu.css";
 
 const App = () => {
 
-    const [Pos, setPos] = useState(8);
+    const [Pos, setPos] = useState(13);
 
     useEffect(() => {
         function handleScroll(event) {
