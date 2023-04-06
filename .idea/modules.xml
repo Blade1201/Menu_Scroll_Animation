@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/menu_scroll_effect.iml" filepath="$PROJECT_DIR$/.idea/menu_scroll_effect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Menu_Scroll_Animation.iml" filepath="$PROJECT_DIR$/.idea/Menu_Scroll_Animation.iml" />
     </modules>
   </component>
 </project>
