@@ -1,0 +1,130 @@
+.nav,.nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background: url('/src/images/menu_bg.png') no-repeat scroll 0 0 transparent;
+    clear: both;
+    font-size: 12px;
+    height: 58px;
+    padding: 0 0 0 9px;
+    position: relative;
+    width: 957px;
+}
+
+.nav ul {
+    background-color: #222;
+    border:1px solid #222;
+    border-radius: 0 5px 5px 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    z-index: 2;
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+.nav li {
+    background: url('/src/images/menu_line.png') no-repeat scroll right 5px transparent;
+    float: left;
+    position: relative;
+}
+
+.nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 30px;
+    padding: 23px 20px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.nav li:hover > a {
+    color: #00B4FF;
+}
+
+.nav li:hover, .nav a:hover {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+
+.nav li:hover ul.subs {
+    left: 0;
+    top: 53px;
+    width: 180px;
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.nav ul li {
+    background: none;
+    width: 100%;
+}
+
+.nav ul li a {
+    float: none;
+}
+
+.slider {
+    background: url('/src/images/slider.png') no-repeat scroll 0 0 transparent;
+    height: 16px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    width: 64px;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.slider:hover {
+    -moz-transition-duration: 3000s;
+    -o-transition-duration: 3000s;
+    -webkit-transition-duration: 3000s;
+    transition-duration: 3000s;
+}
+
+
+/* React-ban megvalósitva ezért erre egyenlőre nincs szükség */
+
+/*
+.nav li:nth-of-type(1):hover ~ .slider {
+    left: 13px;
+}
+
+.nav li:nth-of-type(2):hover ~ .slider {
+    left: 83px;
+}
+
+.nav li:nth-of-type(3):hover ~ .slider {
+    left: 155px;
+}
+
+.nav li:nth-of-type(4):hover ~ .slider {
+    left: 230px;
+}
+
+.nav li:nth-of-type(5):hover ~ .slider {
+    left: 300px;
+}
+
+.nav li:nth-of-type(6):hover ~ .slider {
+    left: 370px;
+}
+
+.nav li:nth-of-type(7):hover ~ .slider {
+    left: 440px;
+}
+
+.nav li:nth-of-type(8):hover ~ .slider {
+    left: 510px;
+} */
